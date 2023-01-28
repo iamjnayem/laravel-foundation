@@ -111,18 +111,20 @@ Route::get('/some-end-point', function(){
 });
 </pre>
 
-2. returning a json
+2.returning a json
 <pre>
 Route::get('/some-end-point', function(){
     return ["foo" => "bar"];
-});</pre>
+});
+</pre>
 
-3. returning a html tag
+3.returning a html tag
 <pre>
 Route::get('/some-end-point', function(){
     return "<h1>Awesome Html tag</h1>";
 });
 </pre>
+
 4. returning a view file.
 <pre>
 Route::get('/some-end-point', function(){
