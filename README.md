@@ -106,7 +106,7 @@ go to views. You will see welcome.blade.php. Notice when we told the file name t
 
 1.returning a string
 
-`Route::get('/some-end-point', function(){\
+`Route::get('/some-end-point', function(){<br />
     return "dummy response";\
 });`\
 
