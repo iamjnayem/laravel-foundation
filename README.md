@@ -111,28 +111,29 @@ Route::get('/some-end-point', function(){
 });
 </pre>
 
-
-
 2. returning a json
-`Route::get('/some-end-point', function(){
+<pre>
+Route::get('/some-end-point', function(){
     return ["foo" => "bar"];
-});
-`
+});</pre>
 
 3. returning a html tag
-`Route::get('/some-end-point', function(){
+<pre>
+Route::get('/some-end-point', function(){
     return "<h1>Awesome Html tag</h1>";
 });
-
+</pre>
 4. returning a view file.
-`Route::get('/some-end-point', function(){
+<pre>
+Route::get('/some-end-point', function(){
     return view("somefile");
 });
+</pre>
 
 # how to add a css and js file with blade file?
 1. put your cs/js file inside of public folder (must important***)
 2. link with blade using link tag and right path specified.
-
+Example:
 `<link href="/x.css"`
 `<script src="/y.js"></script>"`
 
