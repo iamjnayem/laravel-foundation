@@ -125,7 +125,7 @@ Route::get('/some-end-point', function(){
 });
 </pre>
 
-4. returning a view file.
+4.returning a view file.
 <pre>
 Route::get('/some-end-point', function(){
     return view("somefile");
