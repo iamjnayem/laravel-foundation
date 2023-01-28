@@ -105,7 +105,6 @@ go to views. You will see welcome.blade.php. Notice when we told the file name t
 # sending different types of response. 
 
 1.returning a string
-
 <code>
 Route::get('/some-end-point', function(){       
     return "dummy response";   
