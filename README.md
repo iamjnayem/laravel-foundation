@@ -121,7 +121,7 @@ Route::get('/some-end-point', function(){
 3.returning a html tag
 <pre>
 Route::get('/some-end-point', function(){
-    return "<h1>Awesome Html tag</h1>";
+    return &#x22;&#x3C;h1&#x3E;Awesome Html tag&#x3C;/h1&#x3E;&#x22;;
 });
 </pre>
 
